@@ -14,6 +14,7 @@ public class UserDAO {
 			PreparedStatement pstmt = conn.prepareStatement(SQL);
 			pstmt.setString(1, userID);
 			pstmt.setString(2, userPassword);
+			System.out.println("userId: "+userID+"userPassword: "+userPassword);
 			return pstmt.executeUpdate();
 		}
 		catch(Exception e) {

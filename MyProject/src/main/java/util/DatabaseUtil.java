@@ -10,7 +10,7 @@ public class DatabaseUtil {
 			String dbURL = "jdbc:mysql://localhost:3306/TUTORIAL";
 			String dbID = "root";
 			String dbPassword = "beCmingth3l3";
-			Class.forName("com.mysql.jdbc.Driver");
+			Class.forName("com.mysql.cj.jdbc.Driver");
 			return DriverManager.getConnection(dbURL, dbID, dbPassword);
 		}
 		catch(Exception e) {
