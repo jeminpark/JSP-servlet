@@ -75,8 +75,8 @@
                     </li>
 
                 </ul>
-                <form class="d-flex">
-                    <input class="form-control me-2" type="text" placeholder="내용을 입력하세요." aria-label="Search">
+                <form action= "./index.jsp" method = "get" class="d-flex">
+                    <input class="form-control me-2" type="text" placeholder="내용을 입력하세요." aria-label="Search" name = "search">
                     <button class ="btn btn-outline-success" style="white-space:nowrap;" type="submit">검색</button>
                 </form>
 
